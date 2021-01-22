@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Formulario from './components/Formulario';
 import Clima from './components/Clima';
 import Error from './components/Error';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -80,6 +81,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 }
