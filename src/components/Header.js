@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from './Logo';
+// import Logo from './Logo';
 
-const Header = () => {
+const Header = ({titulo}) => {
     return (
         <nav>
             <div className="nav-wrapper light-blue darken-2">
-                {/* <a href="#!" className="brand-logo">{titulo}</a> */}
-                <Logo />
+                <a href="#!" className="brand-logo">{titulo}</a>
+                {/* <Logo /> */}
             </div>
         </nav>
     );
